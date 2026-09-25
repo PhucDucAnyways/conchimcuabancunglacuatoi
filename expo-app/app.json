@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "MemoryWeaver",
+    "slug": "memoryweaver-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.memoryweaver.app",
+      "permissions": [
+        "android.permission.INTERNET"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Ứng dụng cần truy cập ảnh để AI phân tích và thiết kế căn phòng.",
+          "microphonePermission": false,
+          "cameraPermission": false
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}

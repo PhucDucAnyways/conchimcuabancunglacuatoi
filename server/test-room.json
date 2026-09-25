@@ -1,0 +1,49 @@
+{
+  "title": "Phòng",
+  "reply": "Bản phác thảo",
+  "width": 6,
+  "depth": 6,
+  "height": 3,
+  "wallColor": "#FFFFFF",
+  "floorColor": "#AB9876",
+  "floorTextureStyle": "solid",
+  "lightingStyle": "morning_sun",
+  "objects": [
+    {
+      "id": "desk-1",
+      "kind": "desk",
+      "label": "Bàn",
+      "description": "Bàn gỗ",
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "width": 1,
+      "height": 0.75,
+      "depth": 0.6,
+      "color": "#8B7355",
+      "source": {
+        "type": "inferred",
+        "evidence": ""
+      }
+    },
+    {
+      "id": "chair-1",
+      "kind": "chair",
+      "label": "Ghế",
+      "description": "Bàn gỗ",
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "width": 0.5,
+      "height": 0.8,
+      "depth": 0.5,
+      "color": "#8B7355",
+      "source": {
+        "type": "inferred",
+        "evidence": ""
+      }
+    }
+  ]
+}

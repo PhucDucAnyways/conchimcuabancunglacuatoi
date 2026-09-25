@@ -1,0 +1,13 @@
+{
+  "name": "memoryweaver",
+  "version": "1.0.0",
+  "description": "MemoryWeaver - Expo app and Gemini room layout server",
+  "scripts": {
+    "setup": "npm run install:server && npm run install:app",
+    "install:server": "cd server && npm install",
+    "install:app": "cd expo-app && npm install",
+    "server": "cd server && npm start",
+    "app": "npm --prefix expo-app start -- --clear",
+    "test": "cd server && npm test && cd ../expo-app && npm test"
+  }
+}
